@@ -1,4 +1,4 @@
-# HW-1-Topics-in-CS
+# HW-1 Shahil Prasad
 
 1)  Two Sum:
 We need to make sure that two numbers from Array add up to the target value. One way of doing this, is by using brute force. We can do this by having a nested loop of the array, with variable i and j, which will be incremented inside of the array which time the loop continues. How this will work is the number at index 0 will be looped x amount of time while being added to x amount of numbers in the array until it matches or doesn’t match the target. After nothing is found from the first loop of the outer array, it will increment, and go to the second index and repeat. This will add all the numbers inside of the array until it matches the target or is not available in which we will return -1, -1. However, if the numbers in the index match each other, the calculation will not be done since two of the same element cannot be added to the target. The time complexity of this would be O(n)^2 since it uses nested loops, there are definitely more efficient methods available to solve this kind of problem.
